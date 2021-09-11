@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background: rgb(232, 241, 245);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.5rem;
+  display: flex;
+  margin: 0.1rem;
+}
+.wrapper {
+  margin: 0.5rem;
+}
+.que_section {
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+.bg-1 {
+  background-color: #a06cd5;
+}
+.bg-2 {
+  background-color: #b185db;
+}
+.bg-3 {
+  background-color: #d2b7e5;
+}
+.bg-4 {
+  background-color: #dac3e8;
+}
+.bg-5 {
+  background-color: #dec9e9;
+}
+.bg-6 {
+  background-color: #e2d3eb;
+}
+.btn {
+  margin-left: 4rem;
+}
+p {
+  margin: 1rem;
+  line-height: 2;
+  letter-spacing: 0.2rem;
+}
+.question p {
+  font-size: 2.2rem;
+}
+.answer p {
+  font-size: 1.5rem;
+  max-width: 450px;
+}
+.btn i {
+  margin-right: 1rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.answer {
+  display: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  transition: all 0.4s ease;
+}
+.answer.open {
+  display: inline-block;
+}
+#closebtn.active {
+  display: none;
+}
+#minusbtn {
+  display: none;
+}
+#minusbtn.active {
+  display: inline-block;
+}
